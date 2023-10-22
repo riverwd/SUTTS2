@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/feedback.css">
+
+    <title>SUTTS</title>
+</head>
+<body>
+<!--    左侧菜单-->
+<div id="left_menu">
+    <div id="text_main">
+        <p><span class="menu_span"><a href="../employee/generalEnquiries.html" class="menu_a">个人中心</a></span></p>
+    </div>
+    <div id="text_count">
+        <p><span class="menu_span"><a href="../employee/aggregateStatistics.html" class="menu_a">教材管理</a></span></p>
+    </div>
+    <div id="text_dept">
+        <p><span class="menu_span"><a href="../dept/showDept.html" class="menu_a">教材搜索</a></span></p>
+    </div>
+    <div id="text_title">
+        <p><span class="menu_span"><a href="../title/showTitles.html" class="menu_a">购物车</a></span></p>
+    </div>
+    <div id="text_post">
+        <p><span class="menu_span"><a href="../post/showPosts.html" class="menu_a">订单管理</a></span></p>
+    </div>
+    <div id="text_employee">
+        <p><span id="emp_manage" class="menu_span"><a href="../evaluate/evalueAndFeedbackForUser.html" class="menu_a">评价与反馈</a></span></p>
+    </div>
+    <div id="menu_back">
+        <p><span class="menu_span"><a href="../left_menu.html" class="menu_a" onclick="event.preventDefault();">返回</a></span></p>
+    </div>
+</div>
+
+<!--    展示区域背景块，白底-->
+<div id="showAreaBackground">
+    <!--        展示区域-->
+    <div id="showArea">
+        <!--            这是展示区域，所有模块的HTML代码直接写在这里，看起来不美观的再用CSS调整布局。-->
+        <div class="textbooktext">
+            <span >教材名称</span>
+            <label><input type="text" id="textbook"></label>
+        </div>
+        <div class="pricetext">
+            <span >价格</span>
+            <label><input type="text" id="price"></label>
+
+        </div>
+        <div class="feedback_info">
+            <span >购买过程中遇到问题</span>
+
+        </div>
+        <div class="report_info">
+            <span >商品与卖家描述不符</span>
+            <label><input type="submit" value="举报商家" id="report"  class="blue-button" style=""></label>
+        </div>
+
+        <div class="product-review">
+            <div class="left-panel">
+                <!-- 左侧评价商品的内容放在这里 -->
+                评价商品
+            </div>
+            <div class="right-panel">
+                <!-- 右侧文本框放在这里 -->
+                <textarea placeholder="在此输入您的评论..."></textarea>
+            </div>
+        </div>
+        <div class="seller-review">
+            <div class="left-panel2">
+                <!-- 左侧评价卖家的内容放在这里 -->
+                评价卖家
+            </div>
+            <div class="right-panel2">
+                <!-- 右侧文本框放在这里 -->
+                <textarea placeholder="在此输入您的评论..."></textarea>
+            </div>
+        </div>
+
+        <div id="describeinfo" class="describeinfo">
+
+            <span style="color: #09e0f3" ><span style="color: red" id="info1_span">*</span>描述相符</span>
+            <label for="describe"></label><select id="describe" class="input_02_post">
+            <option class="input_02_post" value="" selected></option>
+            <option class="input_02_post" value="1*">*</option>
+            <option class="input_02_post" value="2*">**</option>
+            <option class="input_02_post" value="3*">***</option>
+            <option class="input_02_post" value="4*">****</option>
+            <option class="input_02_post" value="5*">*****</option>
+        </select>
+        </div>
+        <div id="serviceinfo" class="serviceinfo">
+
+            <span style="color: #09e0f3" ><span style="color: red" id="info2_span">*</span>卖家服务</span>
+            <label for="service"></label><select id="service" class="input_02_post">
+            <option class="input_02_post" value="" selected></option>
+            <option class="input_02_post" value="1*">*</option>
+            <option class="input_02_post" value="2*">**</option>
+            <option class="input_02_post" value="3*">***</option>
+            <option class="input_02_post" value="4*">****</option>
+            <option class="input_02_post" value="5*">*****</option>
+        </select>
+        </div>
+        <input type="submit" value="提交评价" onclick="confirmInput()" class="blue-button" style="position: absolute; top: 420px; left: 385px;">
+
+        <!-- 弹窗界面 -->
+
+        <button id="feedbackButton" >反馈</button>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h2>请输入您所遇到的问题</h2>
+                <input type="text" id="issueInput" placeholder="在这里输入您的问题">
+                <div class="buttons">
+                    <button id="submitButton">提交</button>
+                    <button id="cancelButton">取消</button>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="../js/feedback.js"></script>
+    </div>
+</div>
+</body>
+</html>

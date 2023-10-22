@@ -1,0 +1,643 @@
+body, html {
+    background-color: #7EDFDF;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#left_menu {
+    min-height: 945px;
+    max-height: 945px;
+    width: 250px;
+    background-color: #02A7F0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    text-align: center;
+}
+#text_main {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:60px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#text_count {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:120px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#text_dept {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:180px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#text_title {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:240px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#text_post {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:300px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#text_employee {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:360px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#emp1 {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:420px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:#02A7F0;
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#emp2 {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:480px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:#02A7F0;
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#emp3 {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:540px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:#02A7F0;
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#emp4 {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:600px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:#02A7F0;
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+}
+
+#menu_back {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:840px;
+    width:250px;
+    height:60px;
+    background:inherit;
+    background-color:#02A7F0;
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:550;
+    font-style:normal;
+    font-size:20px;
+    color:#FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*点击“员工管理”时展示/隐藏子选项*/
+#employee_list {
+    display: none;
+}
+
+/*去除链接元素的样式：下划线、字体变为蓝色等*/
+.menu_a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*只保留链接元素的下划线样式*/
+a:hover {
+    text-decoration: underline;
+}
+
+/*大模块选项的样式：下划线*/
+.menu_span:hover {
+    text-decoration: underline;
+}
+
+
+/*------以上是左侧菜单的css样式------*/
+
+
+/*展示区域的背景：纯白色*/
+#showAreaBackground {
+    position: absolute;
+    left:280px;
+    top:30px;
+    width:1390px;
+    height:870px;
+    background-color: whitesmoke;
+    border-radius:15px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size:18px;
+}
+
+/*真正意义上的展示区域，与白色背景边界保持一定距离*/
+#showArea {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 1350px;
+    height: 830px;
+}
+
+#logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+}
+#logoDiv {
+    /*background-color: yellow;*/
+    width: 315px;
+    height: 60px;
+    /*box-shadow: 1px 1px 1px rgba(0.5, 0.5, 0.5, 0.5);*/
+}
+#logoWord {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    /*font-family:'宋体', '宋体 常规', '宋体', sans-serif;*/
+    font-weight:800;
+    font-style:normal;
+    font-size:30px;
+    /*background-color: yellow;*/
+}
+
+#class_view_div {
+    /*background-color: yellow;*/
+    position: absolute;
+    left: 20px;
+    top: 85px;
+    width: 200px;
+    height: 700px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+}
+
+#class_top {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+.list_span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#class_list {
+    background-color: #eaeaea;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 200px;
+    height: 650px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
+    font-size: 15px;
+}
+
+#list_all {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 150px;
+    height: 35px;
+    background-color: lightgray;
+    border-radius:10px;
+}
+
+#list_dept {
+    position: absolute;
+    top: 65px;
+    left: 25px;
+    width: 150px;
+    height: 35px;
+    background-color: lightgray;
+    border-radius:10px;
+}
+
+#list_title {
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    width: 150px;
+    height: 35px;
+    background-color: lightgray;
+    border-radius:10px;
+}
+
+#list_post {
+    position: absolute;
+    top: 155px;
+    left: 25px;
+    width: 150px;
+    height: 35px;
+    background-color: lightgray;
+    border-radius:10px;
+}
+
+#list_area {
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    width: 150px;
+    height: 35px;
+    background-color: lightgray;
+    border-radius:10px;
+}
+
+#showAreaBackground {
+    position: absolute;
+    left:280px;
+    top:30px;
+    width:1390px;
+    height:870px;
+    background-color: whitesmoke;
+    border-radius:15px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size:18px;
+}
+
+
+#showArea {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 1350px;
+    height: 830px;
+}
+/* 教材名称样式   */
+.textbooktext {
+    position: absolute;
+    color: #0cd5fc;
+    font-size: 20px;
+    top: 0px; /* 距离顶部的位置 */
+    left: 100px; /* 距离左侧的位置 */
+}
+/* 价格样式   */
+.pricetext {
+    position: absolute;
+    color: #0cd5fc;
+    font-size: 20px;
+    top: 30px; /* 距离顶部的位置 */
+    left: 100px; /* 距离左侧的位置 */
+}
+
+.feedback_info{
+    position: absolute;
+    color: rgba(246, 38, 38, 0.93);
+    font-size: 14px;
+    top: 60px; /* 距离顶部的位置 */
+    left: 100px; /* 距离左侧的位置 */
+}
+.report_info{
+    position: absolute;
+    color: rgba(246, 38, 38, 0.93);
+    font-size: 14px;
+    top: 90px; /* 距离顶部的位置 */
+    left: 100px; /* 距离左侧的位置 */
+}
+#reportButton{
+    position: absolute;
+    font-size: 14px;
+    top: 90px; /* 距离顶部的位置 */
+    left: 230px; /* 距离左侧的位置 */
+    background-color: #02a6ef;
+    color: white;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+/* 描述相符  */
+#describeinfo {
+    position: absolute;
+    color: #0cd5fc;
+    font-size: 20px;
+    top: 150px; /* 距离顶部的位置 */
+    left: 500px; /* 距离左侧的位置 */
+}
+/* 卖家服务  */
+#serviceinfo {
+    position: absolute;
+    color: #0cd5fc;
+    font-size: 20px;
+    top: 180px; /* 距离顶部的位置 */
+    left: 500px; /* 距离左侧的位置 */
+}
+/* 选星级外框 */
+.input_02_post{
+
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid ;
+    outline: none;
+    margin-bottom: 20px;
+}
+.input_02_post:focus{
+    border: 1px solid #51b0e5;
+}
+
+/* 教材名和价格框 */
+#textbook{
+
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid ;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#price{
+
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid ;
+    outline: none;
+    margin-bottom: 20px;
+}
+/*  反馈和举报商家的按钮样式*/
+.blue-button {
+    background-color: #02a6ef;
+    color: white;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.product-review {
+    position: relative;
+    padding: 20px;
+}
+.left-panel {
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    width: 50px; /* 左侧面板占据总宽度的50% */
+    padding-right: 20px;
+    box-sizing: border-box; /* 确保内边距不会增加元素的实际宽度 */
+}
+.right-panel {
+    position: absolute;
+    left: 170px;
+    top: 150px;
+    width: 100px; /* 右侧面板占据总宽度的50% */
+    box-sizing: border-box; /* 确保内边距不会增加元素的实际宽度 */
+}
+.right-panel textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.seller-review{
+    position: relative;
+    padding: 20px;
+}
+
+.left-panel2 {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    width: 50px; /* 左侧面板占据总宽度的50% */
+    padding-right: 20px;
+    box-sizing: border-box; /* 确保内边距不会增加元素的实际宽度 */
+}
+
+.right-panel2 {
+    position: absolute;
+    left: 170px;
+    top: 240px;
+    width: 100px; /* 右侧面板占据总宽度的50% */
+    box-sizing: border-box; /* 确保内边距不会增加元素的实际宽度 */
+}
+
+.right-panel2 textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+/*  弹窗*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+
+

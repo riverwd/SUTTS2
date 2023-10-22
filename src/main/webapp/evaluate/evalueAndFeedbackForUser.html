@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/evaAndFeedbackForUser.css">
+    <title>Title</title>
+</head>
+<body>
+<!--    左侧菜单-->
+<div id="left_menu">
+    <div id="text_main">
+        <p><span class="menu_span"><a href="../employee/generalEnquiries.html" class="menu_a">个人中心</a></span></p>
+    </div>
+    <div id="text_count">
+        <p><span class="menu_span"><a href="../employee/aggregateStatistics.html" class="menu_a">教材管理</a></span></p>
+    </div>
+    <div id="text_dept">
+        <p><span class="menu_span"><a href="../dept/showDept.html" class="menu_a">教材搜索</a></span></p>
+    </div>
+    <div id="text_title">
+        <p><span class="menu_span"><a href="../title/showTitles.html" class="menu_a">购物车</a></span></p>
+    </div>
+    <div id="text_post">
+        <p><span class="menu_span"><a href="../post/showPosts.html" class="menu_a">订单管理</a></span></p>
+    </div>
+    <div id="text_employee">
+        <p><span id="emp_manage" class="menu_span"><a href="../evaluate/evalueAndFeedbackForUser.html" class="menu_a">评价与反馈</a></span></p>
+    </div>
+    <div id="menu_back">
+        <p><span class="menu_span"><a href="../left_menu.html" class="menu_a" onclick="event.preventDefault();">返回</a></span></p>
+    </div>
+</div>
+
+<!--    展示区域背景块，白底-->
+<div id="showAreaBackground">
+    <!--        展示区域-->
+    <div id="showArea">
+
+        <div class="feedback-text">评价与反馈（用户）</div>
+        <table id="user-table">
+            <thead>
+            <tr>
+                <th>订单ID</th>
+                <th>教材ID</th>
+                <th>发布用户ID</th>
+                <th>教材名称</th>
+                <th>教材作者</th>
+                <th>教材价格</th>
+                <th>评价</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- 表格内容将会在JavaScript中动态生成 -->
+            </tbody>
+        </table>
+
+        <script src="../js/evaAndFeedbackForUser.js"></script>
+
+    </div>
+</div>
+</body>
+</html>
